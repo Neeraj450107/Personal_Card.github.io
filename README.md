@@ -29,7 +29,7 @@ https://neeraj450107.github.io/Personal_Card.github.io/
 
 ## Demo
 
-
+https://github.com/user-attachments/assets/0e03547a-68c2-43c6-a49a-047c3f8cddec
 
 
 ## 🖥️ Tech Stack
@@ -40,7 +40,8 @@ https://neeraj450107.github.io/Personal_Card.github.io/
  - Font Awesome (for social media icons)
 ## Screenshots
 
-
+![Image](https://github.com/user-attachments/assets/f17c421e-8316-4125-8e4d-6f3ec62f677c)
+![Image](https://github.com/user-attachments/assets/e6ba07ef-2ba3-447a-8353-1dbd1771dd3e)
 
 
 ## Getting Started
