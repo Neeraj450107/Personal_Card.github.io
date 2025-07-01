@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card | NKP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+
+        <div class="card">
+
+            <img src="img.jpg" alt="">
+            
+           <div class="detail">
+             <h1>Neeraj Kumar Poddar</h1>
+             <h2>Full Stack Web Developer <br>Software Developer <br>Video Creator</h2>
+           </div>
+
+           <div class="share">
+
+                <div class="shareLink" onclick="openPage()" >
+                   <i class="fa fa-share" aria-hidden="true"></i> Share My Profile
+
+                </div>
+
+               <div class="follow"><a href="https://www.linkedin.com/in/neeraj-kumar-poddar-005322259/">Follow</a></div>
+            
+            </div>
+           
+        </div>
+
+        <!-- share my profile open  -->
+
+        <div class="smpo">
+            <div class="smpoHeader">
+              <h1>Share My Profile</h1>
+              <i onclick="closePage()" class="fa fa-times" aria-hidden="true"></i> 
+           </div>
+
+           <div class="smpoLinks">
+              <h2>Share Profile Via</h2>
+
+              <a href="https://www.instagram.com/neeraj_kr_nj?igsh=MW1lYmVwbmlycWZmdQ=="><i class="fa-brands fa-square-instagram" style="color: #fb0996;"  class="icon"></i></a>
+
+              <a href="https://www.facebook.com/neeraj.nj.927"><i class="fa-brands fa-facebook" style="color: #74C0FC;" class="icon"></i></a>
+
+              <a href="https://whatsapp.com/dl/"><i class="fa-brands fa-whatsapp" style="color: #63E6BE;" class="icon"></i></a>
+
+              <a href="http://t.me/mrneeraj2022"><i class="fa-brands fa-telegram" style="color: #74C0FC;" class="icon"></i></a>
+
+              <a href="#"><i class="fa-brands fa-square-threads" style="color: #74C0FC;" class="icon"></i></a>
+
+            </div>
+        </div>
+
+        <!-- overlay -->
+
+        <div class="overlay" onclick="closePage()"></div>
+      
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
